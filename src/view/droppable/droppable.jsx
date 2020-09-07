@@ -145,7 +145,7 @@ export default function Droppable(props: Props) {
         isClone
         isEnabled
         // not important as drag has already started
-        shouldRespectForcePress={false}
+        shouldRespectForcePress={true}
         canDragInteractiveElements
       >
         {(
